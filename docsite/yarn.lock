@@ -146,7 +146,7 @@ __metadata:
   dependencies:
     "@11ty/eleventy": "npm:^2.0.1"
     "@11ty/eleventy-plugin-syntaxhighlight": "npm:^5.0.0"
-    "@kevingimbel/eleventy-plugin-mermaid": "npm:^2.2.1"
+    "@kevingimbel/eleventy-plugin-mermaid": "npm:^3.0.1"
     eleventy-plugin-code-clipboard: "npm:^0.1.1"
     markdown-it: "npm:^14.1.0"
   languageName: unknown
@@ -173,12 +173,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@kevingimbel/eleventy-plugin-mermaid@npm:^2.2.1":
-  version: 2.2.1
-  resolution: "@kevingimbel/eleventy-plugin-mermaid@npm:2.2.1"
+"@kevingimbel/eleventy-plugin-mermaid@npm:^3.0.1":
+  version: 3.0.1
+  resolution: "@kevingimbel/eleventy-plugin-mermaid@npm:3.0.1"
   dependencies:
-    htmlencode: "npm:^0.0.4"
-  checksum: 4870aca1f4d918e3174ba6b0fa1a3c71b8880ccd1b67d28490a67d90deeb6bad829bc97dc2e588be569c44a2d374cc0215f0019b9407b03c513d3e41038b6ba3
+    he: "npm:^1.2.0"
+  checksum: da40d2f0b790b4f564ca42e628548f35ff21c77b167fd825c6f6d1b66daf5e8b62451a179545ff3c4bcddf19a34be5e8b8bf5a4c6578cc582e4d203267ec3918
   languageName: node
   linkType: hard
 
@@ -1198,10 +1198,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"htmlencode@npm:^0.0.4":
-  version: 0.0.4
-  resolution: "htmlencode@npm:0.0.4"
-  checksum: a36da12431c32acd8c55b2d2266c7cf6697616730011d28cb84765bf9aae62002224c74411622cf209be6da81024c72734de727f96e337130619f5cc60b23932
+"he@npm:^1.2.0":
+  version: 1.2.0
+  resolution: "he@npm:1.2.0"
+  bin:
+    he: bin/he
+  checksum: d09b2243da4e23f53336e8de3093e5c43d2c39f8d0d18817abfa32ce3e9355391b2edb4bb5edc376aea5d4b0b59d6a0482aab4c52bc02ef95751e4b818e847f1
   languageName: node
   linkType: hard
 
